@@ -32,6 +32,7 @@
     "url": "https://github.com/tj-actions/changed-files/issues"
   },
   "homepage": "https://github.com/tj-actions/changed-files#readme",
+  "packageManager": "yarn@4.8.1",
   "dependencies": {
     "@actions/core": "^2.0.0",
     "@actions/exec": "^2.0.0",

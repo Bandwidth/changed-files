@@ -50,6 +50,9 @@ jobs:
           cache: 'yarn'
           node-version: '24.x'
 
+      - name: Enable corepack
+        run: corepack enable
+
       - name: Create coverage directory and clover.xml
         run: |
           mkdir -p coverage
