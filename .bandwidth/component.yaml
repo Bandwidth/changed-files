@@ -2,10 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   schemaVersion: v1.0.0
-  name: changed-files-3
+  name: changed-files
   description: Forked from https://github.com/tj-actions/changed-files
   annotations:
-    github.com/project-slug: Bandwidth/changed-files-3
+    github.com/project-slug: Bandwidth/changed-files
   organization: BW
   costCenter: Development - Software Infra
   platformType: undefined
