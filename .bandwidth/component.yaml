@@ -6,6 +6,7 @@ metadata:
   description: Forked from https://github.com/tj-actions/changed-files
   annotations:
     github.com/project-slug: Bandwidth/changed-files
+    bandwidth.com/languages: Node.js
   organization: BW
   costCenter: Development - Software Infra
   platformType: undefined
@@ -13,8 +14,5 @@ metadata:
 spec:
   type: GitHub Action
   owner: github/band-swi
-  lifecycle: |
-    Prototype
-    dependsOn:
-        - resource:platform/undefined
-        - resource:cost-center/Development - Software Infra
+  lifecycle: "Prototype\ndependsOn:\n    - resource:platform/undefined\n    - resource:cost-center/Development\
+    \ - Software Infra\n"
